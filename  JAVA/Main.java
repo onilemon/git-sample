@@ -1,12 +1,19 @@
 class Main {
   public static void main(String[] args) {
-    printData("Kate Jones", 27);
-    printData("John Christopher Smith", 65);
-  }
+    int[] numbers = {1, 4, 6, 9, 13, 16};
 
-  public static void printData(String name, int age) {
-    System.out.println("私の名前は" + name + "です");
-    System.out.println("年齢は" + age + "歳です");
+    int oddSum = 0;
+    int evenSum = 0;
 
+    for (int number : numbers) {
+      if (number % 2 == 0) {
+        evenSum += number;
+      } else {
+        oddSum += number;
+      }
+    }
+
+    System.out.println("奇数の和は" + oddSum + "です");
+    System.out.println("偶数の和は" + evenSum + "です");
   }
 }
