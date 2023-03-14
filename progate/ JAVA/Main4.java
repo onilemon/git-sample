@@ -3,7 +3,7 @@ class Main {
     Person person1 = new Person("Kate", "Jones", 27, 1.6, 50.0);
     Person person2 = new Person("John", "Christopher", "Smith", 65, 1.75, 80.0);
 
-    Car car = new Car("フェラーリ", "赤");
+    Car car = new Car("レクサス", "黑");
     Bicycle bicycle = new Bicycle("ビアンキ", "緑");
 
     person1.buy(car);
