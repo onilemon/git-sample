@@ -4,7 +4,7 @@ class Main {
     Person person2 = new Person("John", "Christopher", "Smith", 65, 1.75, 80.0);
 
     Car car = new Car("レクサス", "黑");
-    Bicycle bicycle = new Bicycle("ビアンキ", "緑");
+    Bicycle bicycle = new Bicycle("ビアンキ", "赤");
 
     person1.buy(car);
 
