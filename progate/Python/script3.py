@@ -4,8 +4,9 @@ from drink import Drink
 food1 = Food('サンドイッチ', 500, 330)
 food2 = Food('チョコケーキ', 400, 450)
 food3 = Food('シュークリーム', 200, 180)
+food4 = Food('カレー', 800, 500)
 
-foods = [food1, food2, food3]
+foods = [food1, food2, food3, food4]
 
 drink1 = Drink('コーヒー', 300, 180)
 drink2 = Drink('オレンジジュース', 200, 350)
