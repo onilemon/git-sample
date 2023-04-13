@@ -1,6 +1,6 @@
 class Main {
   public static void main(String[] args) {
-    int[] numbers = {1, 4, 6, 9, 13, 16};
+    int[] numbers = {1, 4, 6, 9, 13, 16, 20};
 
     int oddSum = 0;
     int evenSum = 0;
