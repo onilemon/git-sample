@@ -13,7 +13,6 @@ main {
   width: 960px;
   display: flex;
   margin: 50px auto;
-
 }
 
 .main-visual-box {
@@ -24,7 +23,7 @@ main {
   background-color: #eeeeee;
 }
 
-.main-visual-box: :last-child {
+.main-visual-box :last-child {
   margin-right: 0px;
 }
 
