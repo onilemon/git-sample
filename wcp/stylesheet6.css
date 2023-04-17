@@ -6,6 +6,7 @@
 
 .header-line {
   height: 50px;
+  width: 100%;
   background-color: coral;
 }
 
@@ -55,6 +56,7 @@ main {
   background-size: cover;
   height: 150px;
 }
+
 .main-title {
   margin: 15px 0 5px 0;
 }
@@ -62,4 +64,21 @@ main {
 .footer-line {
   height: 50px;
   background-color: #aaaaaa;
+}
+
+@media screen and (max-width:768px) {
+  main {
+    width: 100%;
+    display: block;
+    margin: 50px auto;
+  }
+
+  .main-visual-box {
+    width: 90%;
+    padding: 10px;
+    margin: 20px auto;
+    position: relative;
+    background-color: #eeeeee;
+  }
+
 }
