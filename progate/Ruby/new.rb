@@ -11,5 +11,14 @@ class Truck < Car
   end
 end
 
+class Taxi < Car
+  def run(distance)
+    super
+    puts "色々な人達を乗せて走ります"
+  end
+end
+
 truck = Truck.new
 truck.run(5)
+taxi = Taxi.new
+taxi.run(5)
